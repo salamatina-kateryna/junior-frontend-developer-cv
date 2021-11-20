@@ -1,0 +1,70 @@
+.portfolio__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__image-container {
+    flex-shrink: 0;
+    width: fit-content;
+    max-width: 100%;
+    margin: auto;
+}
+
+.portfolio__screen {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio__wrapper {
+    padding: 24px;
+    padding-bottom: 50px;
+}
+
+.portfolio__technologies {
+    margin-bottom: 16px;
+    color: #20c997;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.portfolio__project-name {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.portfolio__project-description {
+    color: #757575;
+}
+
+.portfolio__link {
+    width: 250px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+@media (min-width: 768px) {
+    .portfolio__item {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .portfolio__item--car-energy {
+        flex-direction: row-reverse;
+    }
+
+    .portfolio__image-container {
+        width: 50%;
+    }
+
+    .portfolio__wrapper {
+        width: 50%;
+    }
+
+    .portfolio__link {
+        margin: 0;
+        margin-top: 25px;
+    }
+}

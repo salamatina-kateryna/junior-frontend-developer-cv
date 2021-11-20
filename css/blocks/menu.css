@@ -1,0 +1,22 @@
+.menu__item {
+    padding: 5px;
+    text-align: center;
+}
+
+.menu__link {
+    color: #787878;
+}
+
+.menu__link:hover, .menu__link:focus {
+    color: #5b5b5b;
+} 
+
+@media (min-width: 768px) {
+    .menu__item {
+        padding: 5px 10px;
+    }
+
+    .menu__link {
+        font-size: 18px;
+    }
+}

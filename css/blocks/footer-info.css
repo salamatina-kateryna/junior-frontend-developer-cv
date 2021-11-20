@@ -1,0 +1,36 @@
+.footer-info {
+    margin: 60px auto 30px;
+}
+
+.footer-info__copyright {
+    margin-bottom: 16px;
+    color: #757575;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer-info__link-list {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.footer-info__social {
+    fill: #757575;
+}
+
+.footer-info__social:hover {
+    fill: #4f4f4f;
+}
+
+.footer-info__year {
+    color: #757575;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: center;
+}

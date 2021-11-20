@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 12px;
+    background-color: #fbfbfb;
+    color: #4f4f4f;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, ol, ul, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}

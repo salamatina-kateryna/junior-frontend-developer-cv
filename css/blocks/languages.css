@@ -1,0 +1,7 @@
+.languages::before {
+    border-color: #6f42c1;
+}
+
+.languages__list {
+    line-height: 26px;
+}
