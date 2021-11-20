@@ -10,43 +10,6 @@
     <body>
         <header class="cv-header">
             <nav class="cv-header__nav">
-                
-                <div class="cv-header__wrapper">
-                    <svg class="cv-header__open-menu hidden" fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="24px" height="24px">
-                        <path d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"/>
-                    </svg>
-                    <svg class="cv-header__close-menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 31.112 31.112">
-                        <polygon points="31.112,1.414 29.698,0 15.556,14.142 1.414,0 0,1.414 14.142,15.556 0,29.698 1.414,31.112 15.556,16.97 29.698,31.112 31.112,29.698 16.97,15.556 "/>
-                    </svg>
-    
-                    <div class="cv-header__lighting-mode">
-                        <div class="cv-header__mode-icons">
-                            <svg class="cv-header__sun" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 456.54 456.54">
-                                <rect x="215.27" y="379.3" style="fill:#FFDE55;" width="26" height="77.24"/>
-                                <rect x="215.27" style="fill:#FFDE55;" width="26" height="77.24"/>
-                                <rect x="81.169" y="323.75" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 -95.4776 685.1913)" style="fill:#FCEBA2;" width="26" height="77.239"/>
-                                <rect x="349.372" y="55.544" transform="matrix(-0.7071 -0.7071 0.7071 -0.7071 552.0227 416.9835)" style="fill:#FCEBA2;" width="26" height="77.239"/>
-                                <rect y="215.27" style="fill:#FFDE55;" width="77.24" height="26"/>
-                                <rect x="379.3" y="215.27" style="fill:#FFDE55;" width="77.24" height="26"/>
-                                <rect x="81.169" y="55.548" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -39.005 94.1686)" style="fill:#FCEBA2;" width="26" height="77.239"/>
-                                <rect x="349.378" y="323.753" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -150.0985 362.3763)" style="fill:#FCEBA2;" width="26" height="77.239"/>
-                                <circle style="fill:#FCEBA2;" cx="228.267" cy="228.271" r="124.003"/>
-                                <circle style="fill:#FFDE55;" cx="228.267" cy="228.271" r="95.142"/>
-                            </svg>
-        
-                            <svg class="cv-header__moon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 473.935 473.935">
-                                <circle style="fill:#344E5D;" cx="236.967" cy="236.967" r="236.967"/>
-                                <path style="fill:#F1EB75;" d="M248.443,242.685c0-52.318,28.516-97.945,70.832-122.289c-15.757-6.601-33.055-10.26-51.21-10.26c-73.204,0-132.549,59.341-132.549,132.549c0,73.201,59.341,132.549,132.549,132.549c18.155,0,35.453-3.663,51.21-10.267C276.96,340.63,248.443,294.995,248.443,242.685z"/>
-                            </svg>
-                        </div>
-        
-                        <svg class="cv-header__toggle" width="70px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16.75 14.5C18.1307 14.5 19.25 13.3807 19.25 12C19.25 10.6193 18.1307 9.5 16.75 9.5C15.3693 9.5 14.25 10.6193 14.25 12C14.25 13.3807 15.3693 14.5 16.75 14.5Z" fill="#212121"/>
-                            <path d="M2 12C2 9.23858 4.23858 7 7 7H17C19.7614 7 22 9.23858 22 12C22 14.7614 19.7614 17 17 17H7C4.23858 17 2 14.7614 2 12ZM7 8.5C5.067 8.5 3.5 10.067 3.5 12C3.5 13.933 5.067 15.5 7 15.5H17C18.933 15.5 20.5 13.933 20.5 12C20.5 10.067 18.933 8.5 17 8.5H7Z" fill="#212121"/>
-                        </svg>
-                    </div>
-                </div>
-
                 <ul class="cv-header__menu menu">
                     <li class="menu__item">
                         <a class="menu__link" href="#about-me">About</a>
@@ -67,8 +30,7 @@
                         <a class="menu__link" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </nav>
-            
+            </nav>     
         </header>
 
         <main class="cv-main-page">
@@ -317,6 +279,18 @@
  
                 </form>
             </section>
+
+            <section class="popup hidden">
+                <div class="popup__wrapper">
+                    <svg class="popup__close-button" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20px" height="20px" viewBox="0 0 31.112 31.112">
+                        <polygon points="31.112,1.414 29.698,0 15.556,14.142 1.414,0 0,1.414 14.142,15.556 0,29.698 1.414,31.112 15.556,16.97 29.698,31.112 31.112,29.698 16.97,15.556 "/>
+                    </svg>
+                    
+                    <h3 class="popup__text">The message was successfully sent.</h3>
+
+                    <button class="popup__button button">Close</button>
+                </div>
+            </section>
         </main>
 
         <footer class="cv-footer">
@@ -352,5 +326,8 @@
                 <p class="footer-info__year">2021</p>
             </div>
         </footer>
+
+        <script src="js/script.js"></script>
+
     </body>
 </html>

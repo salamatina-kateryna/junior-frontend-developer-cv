@@ -11,4 +11,5 @@
 @import "./blocks/languages.css";
 @import "./blocks/portfolio.css";
 @import "./blocks/contact.css";
-@import "./blocks/footer-info.css"
+@import "./blocks/footer-info.css";
+@import "./blocks/popup.css"
